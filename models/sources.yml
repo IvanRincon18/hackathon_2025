@@ -1,0 +1,9 @@
+version: 1
+
+sources:
+  - name: forecast
+    database: laketablesgatosnegros
+    schema: forecast
+    tables:
+      - name: plant1_ext
+      - name: plant2_ext
