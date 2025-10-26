@@ -7,3 +7,4 @@ sources:
     tables:
       - name: plant1_ext
       - name: plant2_ext
+      - name: predictions
