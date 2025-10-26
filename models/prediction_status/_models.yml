@@ -6,6 +6,6 @@ models:
       - name: prediction_date
         tests:
           - not_null
-      - name: current
+      - name: real_case
       - name: lowest_case
       - name: greatest_case
