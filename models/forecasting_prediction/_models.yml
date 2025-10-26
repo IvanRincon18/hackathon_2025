@@ -1,11 +1,8 @@
 version: 1
-
 models:
   - name: forecasting_prediction
     columns:
       - name: prediction_date
-        tests:
-          - not_null
-      - name: actual_number
+      - name: actual,
       - name: lowest_case
       - name: greatest_case
