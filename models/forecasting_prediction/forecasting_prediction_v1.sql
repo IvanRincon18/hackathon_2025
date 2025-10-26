@@ -1,6 +1,6 @@
 {{ config(
     materialized='table',
-    schema='forecast',                 
+    dataset='forecast',                 
     alias='forecasting_prediction'  
 ) }}
 
