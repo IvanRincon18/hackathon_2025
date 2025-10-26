@@ -1,6 +1,6 @@
 select 
     prediction_date_key as prediction_date,
-    yhat as real_case,
-    yhat_lower as lowest_case,
-    yhat_upper as greatest_case
+    cast(round(yhat as int64)) as real_case,
+    cast(round(yhat_lower as int64)) as lowest_case,
+    cast(round(yhat_upper as int64)) as greatest_case
 from {{ source('forecast', 'predictions')}}
