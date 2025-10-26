@@ -1,4 +1,4 @@
-version: 1
+version: 2
 
 sources:
   - name: forecast
@@ -7,3 +7,4 @@ sources:
     tables:
       - name: plant1_ext
       - name: plant2_ext
+      - name: predictions

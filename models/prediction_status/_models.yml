@@ -1,0 +1,11 @@
+version: 1
+
+models:
+  - name: prediction_status
+    columns:
+      - name: prediction_date
+        tests:
+          - not_null
+      - name: current
+      - name: lowest_case
+      - name: greatest_case
