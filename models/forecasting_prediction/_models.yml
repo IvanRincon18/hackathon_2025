@@ -4,6 +4,8 @@ models:
   - name: forecasting_prediction
     columns:
       - name: prediction_date
+        tests:
+          - not_null
       - name: actual_number
       - name: lowest_case
       - name: greatest_case
