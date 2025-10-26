@@ -1,7 +1,0 @@
-version: 1
-
-models:
-  - name: new_table
-    columns:
-      - name: day
-      - name: flights

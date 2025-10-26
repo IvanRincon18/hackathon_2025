@@ -1,8 +1,0 @@
-version: 1
-
-models:
-  - name: flights_plant2
-    columns:
-      - name: flights
-        tests:
-          - not_null
