@@ -1,7 +1,7 @@
 version: 1
 
 models:
-  - name: prediction_status
+  - name: prediction_2_weeks
     columns:
       - name: prediction_date
         tests:
