@@ -1,7 +1,7 @@
 {{ config(
     materialized='table',
-    schema='forecast',                 -- dataset en BigQuery
-    alias='forecasting_prediction'  -- nombre físico de la tabla
+    schema='forecast',                 
+    alias='forecasting_prediction'  
 ) }}
 
 select
